@@ -1,0 +1,88 @@
+//===========================================================================================================================
+
+event HudLowAmmoPulse
+{
+	//clip shadow ani
+	Animate AmmoInClipShadow			 			FgColor 	"236 21 255 255" 					Linear 	0.0 	0.0
+	Animate AmmoInClipShadow			 			FgColor 	"Black" 							Linear 	0.20 	0.0
+	
+	Animate AmmoInClipShadow						xpos 		"10" 								Linear 	0.05 	0.0
+	Animate AmmoInClipShadow			 			ypos 		"2" 								Linear 	0.05 	0.0
+	Animate AmmoInClipShadow 						xpos 		"-5" 								Linear 	0.1 	0.0
+	Animate AmmoInClipShadow 						ypos 		"2" 								Linear 	0.1		0.0
+	Animate AmmoInClipShadow 						ypos 		"-2" 								Linear 	0.20 	0.0
+	Animate AmmoInClipShadow 						xpos 		"-2" 								Linear 	0.20 	0.0
+
+	//clip ani
+	Animate	AmmoInClip	    						FgColor		"255 255 0 255"						Linear 	0.0 	0.0
+	Animate	AmmoInClip 	    						FgColor		"Ammo In Clip"						Linear 	0.20 	0.0
+
+	Animate AmmoInClip 								xpos		"10"								Linear 	0.05	0.0
+	Animate AmmoInClip 								ypos		"-2"								Linear 	0.05	0.0
+	Animate AmmoInClip 								xpos		"-10"								Linear 	0.1		0.0
+	Animate AmmoInClip 								ypos		"-2"								Linear 	0.1		0.0
+	Animate AmmoInClip 								xpos		"0"									Linear 	0.20	0.0
+	Animate AmmoInClip								ypos		"0"									Linear 	0.20	0.0
+
+	Animate AmmoInReserve 							FgColor 	"Ammo In Reserve Low" 				Linear 	0.0 	0.0
+
+	//noclip shadow ani
+	Animate AmmoNoClipShadow			 			FgColor 	"236 21 255 255" 					Linear 	0.0 	0.0
+	Animate AmmoNoClipShadow			 			FgColor 	"Black" 							Linear 	0.20 	0.0
+	
+	Animate AmmoNoClipShadow						xpos 		"-10" 								Linear 	0.05 	0.0
+	Animate AmmoNoClipShadow			 			ypos 		"2" 								Linear 	0.05 	0.0
+	Animate AmmoNoClipShadow 						xpos 		"10" 								Linear 	0.1 	0.0
+	Animate AmmoNoClipShadow 						ypos 		"2" 								Linear 	0.1		0.0
+	Animate AmmoNoClipShadow 						ypos 		"-2" 								Linear 	0.20 	0.0
+	Animate AmmoNoClipShadow 						xpos 		"-2" 								Linear 	0.20 	0.0
+
+	//noclip ani
+	Animate	AmmoNoClip 	   							FgColor		"255 255 0 255"						Linear  0.0 	0.0
+	Animate	AmmoNoClip	    						FgColor		"Ammo No Clip"						Linear  0.20 	0.0
+	
+	Animate AmmoNoClip 								xpos		"10"								Linear 	0.05	0.0
+	Animate AmmoNoClip 								ypos		"-2"								Linear 	0.05	0.0
+	Animate AmmoNoClip 								xpos		"-10"								Linear 	0.1		0.0
+	Animate AmmoNoClip								ypos		"-2"								Linear 	0.1		0.0
+	Animate AmmoNoClip 								xpos		"0"									Linear 	0.20	0.0
+	Animate AmmoNoClip								ypos		"0"									Linear 	0.20	0.0
+
+	RunEvent HudLowAmmoPulseLoop					1.60
+}	
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse						0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 						0.0
+	StopEvent HudLowAmmoPulseLoop 					0.0
+	
+	//reset colors
+	Animate AmmoInClipShadow 						FgColor 	"Black" 							Linear 	0.0 	0.0
+	Animate AmmoNoClipShadow 						FgColor 	"Black" 							Linear 	0.0		0.0
+
+	Animate AmmoInClip 								FgColor 	"Ammo In Clip" 						Linear 	0.0 	0.0
+	Animate AmmoInReserve 							FgColor 	"Ammo In Reserve" 					Linear 	0.0 	0.0
+	Animate AmmoNoClip 								FgColor 	"Ammo No Clip" 						Linear 	0.0 	0.0
+	
+	//reset positions
+	Animate AmmoInClipShadow  						ypos		"-2"								Accel	0.0		0.0	
+	Animate AmmoInClipShadow  						xpos		"-2"								Aceel 	0.0		0.0	
+	Animate AmmoInReserveShadow 					xpos 		"-1" 								Accel 	0.0 	0.0
+	Animate AmmoInReserveShadow 					ypos 		"-2" 								Accel 	0.0 	0.0
+	Animate AmmoNoClipShadow 						xpos 		"-2" 								Accel 	0.0 	0.0
+	Animate AmmoNoClipShadow 						ypos 		"-2" 								Accel 	0.0 	0.0
+
+	Animate AmmoInClip	  							ypos		"0"									Accel	0.0		0.0	
+	Animate AmmoInClip								xpos		"0"									Aceel 	0.0		0.0	
+	Animate AmmoInReserve	 						xpos 		"1" 								Accel 	0.0 	0.0
+	Animate AmmoInReserve							ypos 		"-1" 								Accel 	0.0 	0.0
+	Animate AmmoNoClip		 						xpos 		"0" 								Accel 	0.0 	0.0
+	Animate AmmoNoClip		 						ypos 		"0" 								Accel 	0.0 	0.0
+}
+
+//===========================================================================================================================
