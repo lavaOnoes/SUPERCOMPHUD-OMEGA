@@ -1,7 +1,7 @@
 # HUD BY KACHOWHERO / THE MAN WITH 100 NAMES
 
 <p align="center">
-    <img width="782" height="200" src="https://i.imgur.com/VNqseiA.png">
+    <img width="752" height="200" src="https://i.imgur.com/VNqseiA.png">
 </p>
 
 <p align="center">
