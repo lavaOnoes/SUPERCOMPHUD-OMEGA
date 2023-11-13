@@ -1,7 +1,7 @@
 # HUD BY KACHOWHERO / IFUN / THE MAN WITH 100 NAMES
 
 <p align="center">
-    <img width="782" height="200" src="https://imgur.com/a/eibekJT.png">
+    <img width="782" height="200" src="https://i.imgur.com/HVyxIC3.png">
 </p>
 
   <p align="center">
