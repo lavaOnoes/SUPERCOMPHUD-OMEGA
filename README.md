@@ -1,8 +1,7 @@
 # HUD BY KACHOWHERO / IFUN / THE MAN WITH 100 NAMES
 
 <p align="center">
-    <img width="782" height="200" src="![image](https://github.com/lavaOnoes/SUPERCOMPHUD-OMEGA/assets/125533654/a69c2e69-c8e5-4dfd-a9b6-7ad0df416aee)
-">
+    <img width="782" height="200" src="https://i.imgur.com/vmpnk9a.png">
 </p>
 
   <p align="center">
