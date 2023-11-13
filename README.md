@@ -1,19 +1,13 @@
 # HUD BY KACHOWHERO / THE MAN WITH 100 NAMES
 
 
->vergin — 06/07/2022 6:50 PM
-
->do u know how to put uber counter
-
->on quake hud now?
-
->@lava
-
->lava
-
->u wanna make a medic hud
-
->straight up
+vergin — 06/07/2022 6:50 PM
+do u know how to put uber counter
+on quake hud now?
+@lava
+lava
+u wanna make a medic hud
+straight up
 
 
 <p align="center">
