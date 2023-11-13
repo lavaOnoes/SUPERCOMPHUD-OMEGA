@@ -4,8 +4,9 @@
     <img width="782" height="460" src="https://i.imgur.com/U8KMtuk.png">
 </p>
 
-<div align="center">
+<p align="center">
     The hud with the most accurate uber and kritz counter, activate by pressing Z , X or C twice
-    created by lava
-
-</div>
+</p>
+<p align="center">
+    created by lavaOnoes
+</p>
