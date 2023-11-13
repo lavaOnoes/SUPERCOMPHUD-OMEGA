@@ -8,5 +8,5 @@
     The hud with the most accurate uber and kritz counter, activate by pressing Z , X or C twice
 </p>
 <p align="center">
-    created by lavaOnoes
+    created by [lavaOnoes](https://steamcommunity.com/id/alienblues)
 </p>
